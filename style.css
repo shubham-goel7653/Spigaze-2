@@ -1,0 +1,683 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.nav-bar ul ion-icon{
+    border-radius: 4px;
+    background-color: rgb(30, 107, 97);
+    padding: 3px;
+    position: relative;
+    top: -12;
+    font-size: 30px;
+    color: white;
+}
+.nav-bar ul ion-icon:hover{
+    background-color: rgb(44, 136, 124);
+}
+.nav-bar ul .contact{
+    background-color: #c19c30;
+    color: white;
+    width: 100px;
+    position: relative;
+    top: -5;
+    letter-spacing: 1px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-bar ul .contact:hover{
+    background-color: #c4a856;
+}
+.nav-bar ul .text-button{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    margin-right: 15px;
+}
+.nav-bar ul .text-button:hover{
+    color: #c19c30;
+}
+.home{
+   width: 100%;
+   
+    background-color: black;
+   
+}
+.home .main-1{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home .main-1 img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+
+}
+.home .main-1 .intro{
+  position: absolute;
+  width: 70%;
+  height: 400px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.home .main-1 .intro h1{
+    font-size: 70px;
+    font-weight: bolder;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.home .main-1 .intro h2{
+    font-size: 40px;
+    font-weight: bolder;
+    color: whitesmoke;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.home .main-1 .intro h3{
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.home .main-1 .intro a{
+    width: 170px;
+    height: 50px;
+    color: white;
+    background-color: #c19c30;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home .main-1 .intro a:hover{
+     box-shadow: 7px 5px 20px black;
+}
+.about{
+    width: 100%;
+    
+    
+}
+.about .text{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text h1{
+    text-align: center;
+    font-size: 80px;
+    color: rgba(70, 68, 68, 0.993);
+    font-family: 'Poppins', sans-serif;
+}
+.text h2{
+    text-align: center;
+    font-size: 50px;
+    color: rgba(70, 68, 68, 0.993);
+    font-family: 'Poppins', sans-serif;
+}
+.about .main-2{
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ position: relative;
+ font-family: 'Poppins', sans-serif;
+    
+}
+.about .main-2 h1{
+    position: absolute;
+    left: 55;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: bolder;
+    color: #c19c30;
+}
+.about .main-2 h1::after{
+    content: '';
+    height: 55px;
+    width: 3px;
+    background-color: #c19c30;
+    position: absolute;
+    top: 0;
+    left: -10;
+   
+}
+.about .main-2 .content{
+    width: 100%;
+    display: flex; 
+   justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100;
+    padding: 2px;
+   
+}
+.about .main-2 .content .diagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 80;
+    
+
+}
+
+.about .main-2 .content .diagram img{
+    width: 400px;
+    height: 400px;
+}
+.about .main-2 .content .what-spi{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+   position: relative;
+   right: 70;
+   box-shadow: 0px -10px 10px 0px rgb(182, 179, 179);
+}
+.about .main-2 .content .what-spi p{
+    position: relative;
+    left: 0;
+}
+.about .main-2 .content .what-spi li{
+    list-style: none;
+    position: relative;
+    left: 0;
+    text-align: left;
+   
+   
+}
+.about .main-2 .content .what-spi li ion-icon{
+    font-size: 20px;
+    color: #c19c30;
+    position: relative;
+    left: -25;
+    bottom: -27;
+
+}
+.about .main-2 .container{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 50;
+    width: 100%;
+
+}
+.about .main-2 .container .row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.about .main-2 .container .col-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  
+}
+.about .main-2 .container .col-2 img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.objectives{
+    width: 100%;
+}
+.objectives .text{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.objectives .text h1{
+    text-align: center;
+    font-size: 80px;
+    color: rgba(70, 68, 68, 0.993);
+    font-family: 'Poppins', sans-serif;
+}
+.objectives .text h2{
+    text-align: center;
+    font-size: 50px;
+    color: rgba(70, 68, 68, 0.993);
+    font-family: 'Poppins', sans-serif;
+
+}
+.objectives .main-3{
+    width: 100%;
+    height: 700px;
+   
+}
+.objectives .main-3 img{
+    width: 100%;
+    height: 700px;
+    filter: brightness(50%);
+}
+.objectives .main-3 h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.why{
+    width: 100%;
+}
+.why .text{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.why .text h1{
+    text-align: center;
+    font-size: 80px;
+    color: rgba(70, 68, 68, 0.993);
+    font-family: 'Poppins', sans-serif;
+}
+
+.why .main-4{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    
+}
+.why .main-4 img{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    animation: morph 10s linear infinite;
+}
+.why .main-4 img:nth-child(1){
+    animation-delay: -10s;
+}
+.why .main-4 img:nth-child(2){
+    animation-delay: -5s;
+}
+@keyframes morph{
+    0%,20%,100%{
+        filter: blur(0px);
+        opacity: 1;
+        filter: brightness(50%);
+    }
+    40%,80%{
+        filter: blur(16px);
+        opacity: 0;
+        filter: brightness(50%);
+    }
+}
+.why .main-4 .why-spi{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 70;
+    font-family: 'Poppins', sans-serif;  
+    padding: 5px;
+    margin-top: 40;
+}
+.why .main-4 .why-spi h1{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-left: 25px;
+    color: white;
+   
+}
+.why .main-4 .why-spi h1::after{
+    content: '';
+    height: 5px;
+    width: 110px;
+    background-color: white;
+    position: absolute;
+    left: 35;
+    top: 100;
+
+}
+.why .main-4 .why-spi ul{
+    margin-top: 50px;
+}
+.why .main-4 .why-spi li{
+    list-style: none;
+    color: white;
+    
+}
+.why .main-4 .why-spi li ion-icon{
+    font-size: 20px;
+    position: absolute;
+    left: 15;
+    color: #d3b96b;
+}
+.benifits{
+    width: 100%;
+    
+    
+}
+.benifits .main-5{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    padding: 50px;
+    box-shadow: -3px -3px 20px #c19c30;
+    
+}
+.benifits .main-5 .spi-ben{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: #c19c30;
+    position: relative;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif; 
+}
+.benifits .main-5 .spi-ben::after{
+    content: '';
+    height: 5px;
+    width: 200px;
+    background-color:  #c19c30;
+    position: absolute;
+    bottom: -10;
+    left: 120;
+}
+.benifits .main-5 .list{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+   
+
+}
+.benifits .main-5 .list .col{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+   
+  
+}
+.benifits .main-5 .list .col span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: rgb(37, 36, 36);
+    
+} 
+.benifits .main-5 .list .col ion-icon{
+    margin-right: 10px;
+    background-color: #c19c30;
+    font-size: 30px;
+    color: white;
+    position: relative;
+   
+}
+.benifits .main-5 .diagram3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.benifits .main-5 .diagram3 img{
+    width: 500px;
+    height: 400px;
+}
+.benifits .main-5 .diagram3 h3{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+
+}
+.benifits .main-5 .spi-suit{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgba(70, 68, 68, 0.993);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+
+}
+.benifits .main-5 .places{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.benifits .main-5 .places .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.benifits .main-5 .places img{
+    width: 200px;
+    height: 100px;
+}
+.contact{
+    width: 100%;
+}
+.contact .main-6{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+.contact .main-6 h1{
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+    color: #c19c30;
+    margin-top: 20px;
+}
+.contact .main-6 h6{
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+}
+.contact .main-6 h6::after{
+    content: '';
+    height: 3px;
+    width: 80px;
+    background-color:  #c19c30;
+    position: absolute;
+   bottom: -15;
+   left: 80;
+    
+}
+.contact .main-6 .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    gap: 20px;
+    margin-top: 20px;
+}
+.contact .main-6 .form .details{
+    padding: 10px;
+}
+.contact .main-6 .form form input{
+    width: 450px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(197, 193, 193);
+    color: black;
+}
+.contact .main-6 .form form input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(197, 193, 193);
+}
+.contact .main-6 .form form input:nth-child(5){
+    letter-spacing: 2px;
+    background-color: #c19c30;
+    color: white;
+    width: 100px;
+    height: 50px;
+   
+}
+.contact .main-6 .form form input:nth-child(5):hover{
+    background-color: #c5a64a;
+}
+.contact .main-6 .form .address{
+    padding: 10px;
+}
+.contact .main-6 .form .address h2{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+.contact .main-6 .form .address h5{
+    font-size: 15px;
+    color: rgb(139, 136, 136);
+    
+}
+.contact .main-6 .form .address a{
+    text-decoration: none;
+    color: rgb(139, 136, 136);
+    
+}
+.footer{
+    width: 100%;
+    margin-top: 200px;
+    box-shadow: inset 0px 5px 50px #e0bd51;
+}
+.footer .main-7{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.footer .main-7 .row{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 0.5px solid #eedfb1;
+   
+}
+.footer .main-7 .row ul li{
+    list-style: none;
+    
+}
+.footer .main-7 .row ul li ion-icon{
+    margin-right: 5px;
+}
+.footer .main-7 .row a{
+    text-decoration: none;
+    color: black;
+}
+.footer .main-7 .row a:hover{
+    text-decoration: underline;
+}
+.footer .main-7 .row .col-4{
+    padding: 10px;
+   
+}
+.footer .main-7 p{
+    margin-top: 10px;
+}
+body .icons{
+    height: 150px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 5;
+    bottom: 5;
+    z-index: 10;
+}
+body .icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 5px;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 50%;
+    z-index: 10;
+}
+body .icons a:hover{
+    transform: scale(1.2);
+}
+body .icons a:nth-child(2){
+    background-color: #ed157a;
+}
+body .icons a:nth-child(1){
+    background-color: #111dc9;
+}
+body .icons a:nth-child(3){
+    background-color: rgb(42, 218, 42);
+}
+body .whtsapp{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 5;
+    bottom: 5;
+    z-index: 10;
+}
+body .whtsapp a{
+text-decoration: none;
+font-size: 30px;
+color: whitesmoke;
+padding: 10px;
+z-index: 10;
+border-radius: 50%;
+background-color: #25D366 ;
+}
+
+
+
+
+
